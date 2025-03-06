@@ -1,0 +1,1 @@
+components.statistique.chart.LabelColor

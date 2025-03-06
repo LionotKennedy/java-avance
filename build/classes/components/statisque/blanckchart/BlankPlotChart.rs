@@ -1,0 +1,2 @@
+components.statistique.blanckchart.BlankPlotChart$1
+components.statistique.blanckchart.BlankPlotChart

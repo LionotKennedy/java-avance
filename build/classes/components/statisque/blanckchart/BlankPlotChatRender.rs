@@ -1,0 +1,1 @@
+components.statistique.blanckchart.BlankPlotChatRender
