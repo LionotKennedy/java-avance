@@ -42,9 +42,9 @@
                       <Component id="PanelChart" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Component id="card1" min="-2" pref="310" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                          <Component id="card2" min="-2" pref="310" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                          <Component id="card2" min="-2" pref="315" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                           <Component id="card3" min="-2" pref="310" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -70,14 +70,40 @@
       </Layout>
       <SubComponents>
         <Component class="components.card.Card" name="card1">
+          <Properties>
+            <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d2" green="d4" red="10" type="rgb"/>
+            </Property>
+            <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ea" green="5b" red="0" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javaswingdev.GoogleMaterialDesignIcon" editor="org.netbeans.modules.form.editors.EnumEditor">
+              <Value id="PERSON"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="components.card.Card" name="card2">
           <Properties>
+            <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="61" green="e8" red="14" type="rgb"/>
+            </Property>
+            <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="1f" green="96" red="19" type="rgb"/>
+            </Property>
             <Property name="description" type="java.lang.String" value="Nombre total des etudiants admis"/>
+            <Property name="icon" type="javaswingdev.GoogleMaterialDesignIcon" editor="org.netbeans.modules.form.editors.EnumEditor">
+              <Value id="SCHOOL"/>
+            </Property>
           </Properties>
         </Component>
         <Component class="components.card.Card" name="card3">
           <Properties>
+            <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="87" red="d3" type="rgb"/>
+            </Property>
+            <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="19" red="ff" type="rgb"/>
+            </Property>
             <Property name="description" type="java.lang.String" value="Nombre total des etudiants redoublants"/>
           </Properties>
         </Component>
@@ -89,7 +115,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                       <Component id="chart" min="-2" pref="998" max="-2" attributes="0"/>
-                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>

@@ -22,7 +22,7 @@ public final class page extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         con = connexionDB.connexion.connex;
-        
+
         EventMenu event = new EventMenu() {
             @Override
             public void selected(int index) {
@@ -52,17 +52,13 @@ public final class page extends javax.swing.JFrame {
     public void LoginOut() {
         if (JOptionPane.showConfirmDialog(null, "Attention vous voulez vraiment quitter ?",
                 "Deconnexion", JOptionPane.YES_NO_OPTION) == JOptionPane.OK_OPTION) {
-
+            Main Login = new Main();
+            Login.setVisible(true);
+            this.setVisible(false);
         } else {
-            JOptionPane.showMessageDialog(null, "Veullez selectionner l'employe");
             return;
         }
     }
-    
-    
-    
-    
-    
 
 //  *********  STATISTIC NOTE *********
 //    public void StatisticData() {
@@ -72,21 +68,18 @@ public final class page extends javax.swing.JFrame {
 //        DisplayNbRedoublants();
 //    }
 //  *********  ENDING MEDECINS *********
-
 //  *********  RECUPERATION MEDECINS *********
 //    public void ControlsButton() {
 //        UpdateBtn.setEnabled(false);
 //        DeleteNote.setEnabled(false);
 //    }
 //  *********  ENDING MEDECINS *********
-
 //  *********  RECUPERATION MEDECINS *********
 //    public void ControlsButtonTrue() {
 //        UpdateBtn.setEnabled(true);
 //        DeleteNote.setEnabled(true);
 //    }
 //  *********  ENDING MEDECINS *********
-
 //  *********  RECUPERATION MEDECINS *********
 //    public void Recuperation() {
 //        try {
@@ -115,7 +108,6 @@ public final class page extends javax.swing.JFrame {
 //        }
 //    }
 //  *********  ENDING MEDECINS *********
-
 //  *********  DISPLAY PATIENTS *********
 //    public final void DisplayNote() {
 //        try {
@@ -128,7 +120,6 @@ public final class page extends javax.swing.JFrame {
 //        }
 //    }
 //  *********  ENDING MEDECINS *********
-
 //  *********  RECUPERATION MEDECINS *********
     public String GetTableResult() {
         return dataProject;
@@ -155,7 +146,6 @@ public final class page extends javax.swing.JFrame {
 //        }
 //    }
 //  *********  ENDING NOTE *********
-
 //  *********  DISPLAY NOTE MIN *********
 //    public final void DisplayMin() {
 //        try {
@@ -176,7 +166,6 @@ public final class page extends javax.swing.JFrame {
 //        }
 //    }
 //  *********  ENDING NOTE *********
-
 //  *********  DISPLAY NOTE ADIMS *********
 //    public final void DisplayNbAdmis() {
 //        try {
@@ -197,7 +186,6 @@ public final class page extends javax.swing.JFrame {
 //        }
 //    }
 //  *********  ENDING NOTE *********
-
     //  *********  DISPLAY NOTE REDOUBLANTS *********
 //    public final void DisplayNbRedoublants() {
 //        try {
@@ -218,7 +206,6 @@ public final class page extends javax.swing.JFrame {
 //        }
 //    }
 //  *********  ENDING NOTE *********
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
