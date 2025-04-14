@@ -144,17 +144,22 @@ public class form_1 extends javax.swing.JPanel {
         PanelChart = new components.panel.PanelShadow();
         chart = new components.statistique.chart.Chart();
 
-        panelShadow1.setBackground(new java.awt.Color(153, 0, 0));
+        panelShadow1.setBackground(new java.awt.Color(255, 255, 255));
+        panelShadow1.setShadowOpacity(0.3F);
+        panelShadow1.setShadowSize(4);
 
+        card1.setBackground(new java.awt.Color(225, 223, 223));
         card1.setColor1(new java.awt.Color(16, 212, 210));
         card1.setColor2(new java.awt.Color(0, 91, 234));
         card1.setIcon(javaswingdev.GoogleMaterialDesignIcon.PERSON);
 
+        card2.setBackground(new java.awt.Color(225, 223, 223));
         card2.setColor1(new java.awt.Color(20, 232, 97));
         card2.setColor2(new java.awt.Color(25, 150, 31));
         card2.setDescription("Nombre total des etudiants admis");
         card2.setIcon(javaswingdev.GoogleMaterialDesignIcon.SCHOOL);
 
+        card3.setBackground(new java.awt.Color(225, 223, 223));
         card3.setColor1(new java.awt.Color(211, 135, 130));
         card3.setColor2(new java.awt.Color(255, 25, 0));
         card3.setDescription("Nombre total des etudiants redoublants");

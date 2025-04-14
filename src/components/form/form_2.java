@@ -212,10 +212,10 @@ public final class form_2 extends javax.swing.JPanel {
         TableDeNote = new components.table_2.Table();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 204, 0));
+        setBackground(new java.awt.Color(204, 204, 204));
         setPreferredSize(new java.awt.Dimension(1071, 636));
 
-        panelShadow1.setBackground(new java.awt.Color(0, 153, 204));
+        panelShadow1.setBackground(new java.awt.Color(255, 255, 255));
 
         searchData.setLabelText("Recherche");
         searchData.setLineColor(new java.awt.Color(16, 7, 112));

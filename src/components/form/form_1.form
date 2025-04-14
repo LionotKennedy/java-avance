@@ -29,8 +29,10 @@
     <Container class="components.panel.PanelShadow" name="panelShadow1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="0" red="99" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
+        <Property name="shadowOpacity" type="float" value="0.3"/>
+        <Property name="shadowSize" type="int" value="4"/>
       </Properties>
 
       <Layout>
@@ -71,6 +73,9 @@
       <SubComponents>
         <Component class="components.card.Card" name="card1">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="df" green="df" red="e1" type="rgb"/>
+            </Property>
             <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="d2" green="d4" red="10" type="rgb"/>
             </Property>
@@ -84,6 +89,9 @@
         </Component>
         <Component class="components.card.Card" name="card2">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="df" green="df" red="e1" type="rgb"/>
+            </Property>
             <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="61" green="e8" red="14" type="rgb"/>
             </Property>
@@ -98,6 +106,9 @@
         </Component>
         <Component class="components.card.Card" name="card3">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="df" green="df" red="e1" type="rgb"/>
+            </Property>
             <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="82" green="87" red="d3" type="rgb"/>
             </Property>

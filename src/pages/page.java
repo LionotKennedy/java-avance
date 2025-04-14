@@ -216,9 +216,12 @@ public final class page extends javax.swing.JFrame {
         contenair = new components.panel.PanelShadow();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
 
-        panelShadow1.setBackground(new java.awt.Color(0, 0, 0));
+        panelShadow1.setBackground(new java.awt.Color(204, 204, 204));
         panelShadow1.setPreferredSize(new java.awt.Dimension(1295, 700));
+
+        header1.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout header1Layout = new javax.swing.GroupLayout(header1);
         header1.setLayout(header1Layout);
